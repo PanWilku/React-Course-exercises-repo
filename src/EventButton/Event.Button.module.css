@@ -1,0 +1,26 @@
+.border {
+  display: inline-flex;
+  flex-direction: column;
+  border: 5px solid hsl(120, 40%, 47%);
+  align-items: center;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  background-color: hsl(211, 67%, 49%); /* Primary color */
+  color: #fff; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding for size */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Emphasize text */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button:hover {
+  background-color: hsl(211, 67%, 42%);
+}

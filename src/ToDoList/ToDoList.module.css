@@ -1,0 +1,102 @@
+.to-do-list-body {
+  background-color: hsl(92, 67%, 55%);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.to-do-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.to-do-list-h {
+  font-style: italic;
+}
+
+.task-input {
+  min-width: 250px;
+  font-size: larger;
+  border: 2px solid hsl(325, 72%, 52%);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: hsl(300, 59%, 75%);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: hsl(300, 25%, 45%);
+  outline: none;
+}
+
+.task-input::placeholder {
+  border-color: hsl(300, 25%, 45%);
+  color: hsl(300, 25%, 45%);
+}
+
+.task-input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: hsl(325, 72%, 52%); /* Maintain your custom border color */
+}
+
+.add-button {
+  width: 100px;
+  background: hsl(325, 72%, 52%);
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between; /* Push text to left and buttons to right */
+  align-items: center; /* Align items vertically in the center */
+  border: 3px groove #6d6d6d; /* Optional: Add a border around each task */
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px 250px; /* Add 200px padding to left and right */
+  position: relative; /* Ensure positioning context for absolute elements */
+  margin: 10px;
+}
+
+.task-p {
+  flex: 1; /* Allow the left element to grow and take up available space */
+  margin: 0; /* Reset margins */
+  margin-left: -230px; /* Counteract the left padding */
+  font-size: larger;
+}
+
+.task-buttons {
+  margin-right: -230px; /* Counteract the right padding */
+}
+
+.task-buttons button {
+  background: hsl(325, 72%, 52%);
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+#delete-button {
+  margin-left: 50px;
+}
+
+.toDoListRouterButton {
+  width: 100px;
+  background: hsl(325, 72%, 52%);
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 15px 15px;
+  margin: 10px 5px;
+}

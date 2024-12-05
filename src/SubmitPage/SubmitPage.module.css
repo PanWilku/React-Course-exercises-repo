@@ -1,0 +1,43 @@
+/* Centering the content */
+.submit-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9; /* Light background color */
+  font-family: Arial, sans-serif; /* Clean, modern font */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main heading */
+.submit-page h1 {
+  font-size: 2.5rem; /* Large heading size */
+  color: #007bff; /* Primary blue color */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+/* Subtext */
+.submit-page p {
+  font-size: 1.25rem; /* Slightly larger paragraph */
+  color: #555; /* Neutral gray for subtext */
+  margin-bottom: 30px; /* Space below paragraph */
+}
+
+/* Button styling */
+.submit-page button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Slightly rounded corners */
+  padding: 12px 20px; /* Button padding */
+  font-size: 1rem; /* Button font size */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for the button */
+.submit-page button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

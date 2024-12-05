@@ -1,0 +1,7 @@
+.button-menu {
+  background-color: hsl(60, 50%, 65%);
+  color: hsl(60, 11%, 16%);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}

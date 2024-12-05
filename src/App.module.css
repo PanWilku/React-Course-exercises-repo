@@ -1,0 +1,9 @@
+.div-styling {
+  display: flex;
+  padding: 20px;
+}
+
+.frames-styling {
+  display: flex;
+  flex-direction: row;
+}

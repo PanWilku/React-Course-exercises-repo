@@ -1,0 +1,11 @@
+.heading-styling {
+  border-radius: 10px;
+  border: 5px solid green;
+}
+
+.color-picker-div {
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  min-width: 300px;
+}
