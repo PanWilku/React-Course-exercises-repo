@@ -7,7 +7,7 @@ function Timer(){
         <>
         <h1>SIEMA</h1>
         <h1>SIEMA</h1>
-
+        <h1>Clock</h1>
         </>
     )
 }
