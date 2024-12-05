@@ -14,6 +14,8 @@ import ToDoList from "./ToDoList/ToDoList";
 import ToDoListRouterButton from "./ToDoList/ToDoListRouterButton";
 import Clock from "./Clock/Clock";
 import UseContenxtComponentA from "./useContextComponent/UseContextComponentA";
+import Timer from "./Timer/Timer";
+
 
 function App() {
   const [inputLength, setInputLength] = useState(0);
@@ -55,6 +57,8 @@ function App() {
                   <DeliveryComponent></DeliveryComponent>
                   <ColorPicker></ColorPicker>
                   <Clock></Clock>
+                  <Timer></Timer>
+                  <Timer></Timer>
                 </div>
                 <ToDoListRouterButton></ToDoListRouterButton>
                 <Footer />
